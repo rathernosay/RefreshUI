@@ -12,7 +12,7 @@ let package = Package(
             targets: ["RefreshUI"]),
     ],
     dependencies: [
-        .package(url: "git@github.com:noppefoxwolf/Rotoscope.git", from: .init("0.1.2"))
+        .package(url: "https://github.com/noppefoxwolf/Rotoscope.git", from: .init("0.1.2"))
     ],
     targets: [
         .target(
